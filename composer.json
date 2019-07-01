@@ -1,0 +1,27 @@
+{
+  "name": "magp/yii2-json-schema-validator" ,
+  "version": "1.0.0" ,
+  "description": "A Yii2 extension that provides a validator class for JSON Schema validation.",
+  "keywords": ["yii2", "json", "schema", "validator"],
+  "type": "yii2-extension",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Manuel Alejandro Gonzalez Prieto",
+      "email": "manuel_alejandrogp@web.de"
+    }
+  ],
+  "require": {
+    "swaggest/json-schema": "*",
+    "yiisoft/yii2": "2.*"
+  },
+  "require-dev": {
+    "yiisoft/yii2-codeception": "*",
+    "codeception/codeception": "2.0.*"
+  },
+  "autoload": {
+    "psr-4": {
+      "magp\\yii2jsv\\": "src/"
+    }
+  }
+}
