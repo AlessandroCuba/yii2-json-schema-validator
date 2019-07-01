@@ -18,7 +18,7 @@ Model class example:
 
 namespace app\models;
 
-use dstotijn\yii2jsv\JsonSchemaValidator;
+use magp\yii2jsv\JsonSchemaValidator;
 use Yii;
 use yii\base\Model;
 
